@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+          /* margin: 0;  
+          padding: 0; */
+          
+        }
+     div{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 50vh;
+        /* background: radial-gradient(white,rgb(136, 225, 245)); */
+
+        }
+        img{
+            height: 8rem;
+            transition-duration: 3s;
+            /* flex: 1; */
+        }
+        /* #middle:hover{
+            height: 2rem;
+        } */
+        #middle{
+            position: relative;
+            bottom: 5.6rem;
+        }
+        @media screen and (max-width:670px){
+            body{
+                background-color: aqua;
+            }
+            img{
+            height: 4rem;
+            transition-duration: 3s;
+            /* flex: 1; */
+        }
+        /* #middle:hover{
+            height: 2rem;
+        } */
+
+
+        }
+        @media screen and (max-width:412px){
+            body{
+                background-color: red;
+            }
+            img{
+            height: 4rem;
+            transition-duration: 2s;
+            /* flex: 1; */
+            flex-wrap: nowrap;
+        }
+        /* #middle:hover{
+            height: 2rem;
+        } */
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+<img src="./drop-3698073_640.jpg" alt="">
+<img src="./nature-3082832_640.jpg" alt="" id="middle">
+<img src="./mountains-540115_640.jpg" alt="" >
+    </div>
+</body>
+</html>
