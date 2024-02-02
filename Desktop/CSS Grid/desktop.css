@@ -1,0 +1,78 @@
+body {
+  border: 1px solid red;
+}
+
+.container {
+  /* width: 90vw; */
+  height: 100vh;
+  /* margin: 0 auto; */
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 6fr 3fr;
+}
+/* Css for header */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+}
+/* css for main */
+figure {
+  width: 100%;
+}
+figure img {
+  width: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 100px;
+}
+
+/* css for footer */
+
+.footer .subFooter {
+  border: 2px green solid;
+}
+
+.footer div img {
+  /* height: 100px;
+    width: 100px; */
+  height: 80%;
+  width: 80%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .subFooter {
+  display: flex;
+  background: tan;
+}
+
+.subFooter div {
+  height: 100%;
+  width: 100%;
+}
+.subFooter {
+  background: red;
+  flex: auto;
+}
+.subFooter .figure {
+  /* height: 100%;
+  width: 100%; */
+  background: greenyellow;
+  /* display: flex; */
+  /* flex-direction: column; */
+}

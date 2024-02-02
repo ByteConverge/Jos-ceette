@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 80vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 100%;
+        /* background: goldenrod; */
+        margin-left: auto;
+        margin-right: auto;
+        gap: 10px;
+      }
+
+      /* ITEM TWO CSS */
+      .item2 {
+        background: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      .item2 div {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1rem;
+      }
+      hr {
+        width: 70%;
+      }
+      .item2 h1 {
+        color: orange;
+      }
+
+      /* ITEM 0NE CSS */
+      .item1 {
+        /* background: lightblue; */
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 70% 30%;
+        gap: 10px;
+      }
+      /* figure {
+        margin: 0;
+        background: pink;
+      } */
+      img {
+        height: 100%;
+        width: 100%;
+      }
+
+      .subMain {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        /* background-color: blanchedalmond; */
+        gap: 10px;
+        height: 100%;
+        width: 100%;
+      }
+      .sm2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* background-color: aquamarine; */
+        /* background-color: red; */
+      }
+
+      .sm2 h2 {
+        color: white;
+        background-color: rgb(223, 79, 79);
+        width: 30%;
+        text-align: center;
+        position: relative;
+        bottom: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <main class="item1">
+        <img src="./images/image-web-3-desktop.jpg" alt="" />
+
+        <div class="subMain">
+          <h1 style="height: 100%; width: 100%; margin: 0">
+            Lorem, ipsum dolor.
+          </h1>
+
+          <div class="sm2">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas,
+              eos. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Alias voluptatibus deserunt eos ducimus
+            </p>
+            <h2 style="">Read more</h2>
+          </div>
+        </div>
+      </main>
+
+      <div class="item2">
+        <h1>NEW</h1>
+
+        <div>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum alias
+          qui, mollitia incidunt recusandae beatae eaque, vitae perferendis
+          autem,
+          <br />
+          <br />
+          <hr />
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum alias
+          qui, mollitia incidunt recusandae beatae eaque, vitae perferendis
+          doloe, aut porro facere corporis fuga a nobis autem,
+          <br />
+          <br />
+          <hr />
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum alias
+          qui, mollitia incidunt recusandae beatae eaque, vitae perferendis
+          dolore maxime similique totam, nostrum a neque! Sint quod accusamus
+          dolore eveniet, sapiente, aut porro facere corporis fuga a nobis
+          autem,
+          <br />
+          <br />
+          <hr />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

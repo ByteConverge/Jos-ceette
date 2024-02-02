@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  border: 2px solid red;
+  /* flex-direction: column/row/; */
+  flex-direction: row;
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow: column wrap-reverse; */
+  /* height: 100vh; */
+  /* justify-content: center;
+  align-items: center;
+  height: 100vh; */
+}
+.flex-item {
+  padding: 16px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.item-1 {
+  background: lightblue;
+  /* align-self: flex-start; */
+  flex-grow: 4;
+}
+
+.item-2 {
+  background: lightcoral;
+  flex-grow: 2;
+}
+
+.item-3 {
+  background: forestgreen;
+}

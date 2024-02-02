@@ -1,0 +1,10 @@
+*{
+color: rgb(0, 0, 0);
+background-color: black;
+background-image: url(./desert-2435404_640.jpg);
+font-family:'Courier New', Courier, monospace;
+}
+#centre{
+text-align: center;
+
+}

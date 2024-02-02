@@ -1,0 +1,59 @@
+div{
+
+    text-align: center;
+    text-shadow: rgb(12, 12, 12);
+    color: rgb(254, 253, 253);
+    background-color: rgb(232, 182, 141);
+    size-adjust: 50;
+    background-image: url("./images/ocean-3605547_640.jpg");
+
+}
+
+body{
+
+    background-image: url("./images/sand-2005066_640.jpg");
+}
+
+OL{
+    color: brown;
+    text-align: center;
+    text-shadow: brown;
+    
+    }
+    form{
+      align-items: center;
+
+    }
+    body{
+
+    background-color: azure;  
+    }
+
+
+h1{
+   
+    color: green;
+    text-align: center;
+
+}
+
+
+
+
+table{
+margin-left: auto;
+margin-right: auto;
+
+
+}
+.sakia{
+display: flex;
+justify-content: center;
+align-items: centre ;
+
+    
+}
+#mew{
+    color: rgb(255, 255, 255);
+
+} 

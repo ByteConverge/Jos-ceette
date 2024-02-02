@@ -1,0 +1,28 @@
+HTML AND CSS
+
+HyperText MarkUp Language
+HTML tag <!DOCTYPE HTML>
+//
+
+text tags<h1></h1>
+image tags <img src="Image directory" alt="name for the image incase it does not show">
+Tables tags <table> <tr> <th> <td>
+Ol AND UL tags <ol><ul><li>
+
+//
+ *<dl>description list
+ * <dt>description term</dt>
+ * <dd>description definition</dd>
+</dl>
+
+
+//
+LINKS in HTML<a href="">
+
+//
+FORMS IN HTML <input type="password">
+
+//
+CSS
+JAVASCRIPT
+REACT
